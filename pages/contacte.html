@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title> E-Rețete </title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            E-Rețete
+            <i class="fas fa-utensils logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html"> Pagina principală </a>
+            <a href="retete.html"> Rețete </a>
+            <a href="aranjare.html"> Aranjarea mesei </a>
+            <a href="contacte.html"> Contacte </a>
+        </aside>
+        <main>
+            <h2 class="title"> Contacte </h2>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h3> Contactează-ne dacă: </h3>
+                    <ul class="contact-list">
+                        <li> Dorești să afli rețete noi </li>
+                        <li> Dorești să distribui o rețetă nouă </li>
+                        <li> Ai propuneri/sugestii/întrebări </li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3> Date de contact </h3>
+                    <ul class="contact-data">
+                        <li><b> Adresa: </b> str. Națională 100 </li>
+                        <li><b> Telefon: </b> 0236-2-00-00 </li>
+                        <li><b> E-mail: </b> retete@gmail.com </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.40539187123!2d27.79956581543833!3d47.20864962337659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb00239cd8fcc1%3A0x979a0b460794661e!2sPatria%2C%20A283%2C%20Ungheni%2C%20Moldova!5e0!3m2!1sro!2s!4v1627569149481!5m2!1sro!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered"> Lasă un mesaj </h3>
+                            <input type="text" placeholder="Nume" required/>
+                            <input type="email" placeholder="E-mail" required/>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite"/>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <script src="../js/main.js"></script>
+</body>
+
+</html>
